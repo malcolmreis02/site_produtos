@@ -10,3 +10,14 @@
 .card{
     margin-right: 20px;
 }
+
+@media screen and (max-width: 800px){
+    .main-card{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+    
+}

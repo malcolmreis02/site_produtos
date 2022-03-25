@@ -26,3 +26,11 @@
 .text-quimica{
     margin-top: 15px;
 }
+
+@media screen and (max-width: 800px){
+    .quimica1-show img{
+        max-width: 100%;
+        margin: 0 0 10% 0 
+    }
+    
+}

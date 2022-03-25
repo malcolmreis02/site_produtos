@@ -14,20 +14,42 @@
 .liso2-title{
     margin-top: 10%;
     margin-right: 3%;
-    margin-left: 5%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 120%;
     max-width: 50%;
 }
 
-.liso2-show{
-    margin: 10% 0;
-}
-
 .liso2-show img{
-    max-width: 110%;
+    max-width: 130%;
 }
 
-.text-lisos{
-    margin-top: 15px;
+.liso2-show{
+    margin: 10% 20px;
+}
+
+@media screen and (max-width: 800px){
+    .liso2-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10% 10% 10%;
+    }
+
+    .liso2-title{
+        margin-top: 10%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 80%;
+        text-align: center;
+        max-width: max-content;
+    }
+
+    .liso2-show{
+        margin: 0;
+        text-align: center;
+    }
+
+    .liso2-show img{
+        width: 240px;
+        height: 240px;
+        max-width: 80%;
+    }
 }

@@ -12,7 +12,7 @@ A Linha Cachos Esplendorosos Belkit Premium atua nas curvaturas dos fios promove
 Blend de Óleos Exóticos: repositor de lipídios, com efeitos rápidos e duradouros. Com a idéia de reunir óleos conhecidos, de eficácia comprovado em capilares, seu uso regular pode ajudar na regeneração celular e até no fortalecimento capilar para cabelos macios, brilhante e saudáveis.</p>
                 </div>
                 <div className='cachos1-show'>
-                    <img src="https://www.bing.com/images/blob?bcid=TiHuImx5PvkDqxcxoNWLuD9SqbotqVTdP7M" alt="logotipo-art" border="0"/>
+                    <img src="https://www.luxbel.com.br/imagem/index/21715070/G/kit_cachos_esplendorosos_belkit_premium.jpeg" alt="logotipo-art" border="0"/>
                 </div>
             </div>
         </div>

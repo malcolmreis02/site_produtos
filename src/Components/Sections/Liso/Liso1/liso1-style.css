@@ -30,3 +30,30 @@
 .text-liso{
     margin-top: 15px;
 }
+
+@media screen and (max-width: 800px){
+    .liso1-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .liso1-title{
+        margin-top: 10%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 80%;
+        text-align: center;
+        max-width: max-content;
+    }
+
+    .liso1-show{
+        margin: 0;
+        text-align: center;
+    }
+
+    .liso1-show img{
+        width: 240px;
+        height: 240px;
+        margin: 10%;
+    }
+}

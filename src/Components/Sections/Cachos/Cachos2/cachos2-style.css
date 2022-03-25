@@ -24,5 +24,31 @@
 }
 
 .cachos2-show{
-    margin: 10% 0;
+    margin: 10% ;
+}
+
+@media screen and (max-width: 800px){
+    .cachos2-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .cachos2-title{
+        margin-top: 10%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 80%;
+        text-align: center;
+        max-width: max-content;
+    }
+
+    .cachos2-show{
+        margin: 0;
+        text-align: center;
+    }
+
+    .cachos2-show img{
+        max-width: 80%;
+        margin: 10%;
+    }
 }
