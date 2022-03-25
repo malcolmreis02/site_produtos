@@ -1,0 +1,17 @@
+.banner-main{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("https://images.pexels.com/photos/8509197/pexels-photo-8509197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Josefin Slab', serif;
+}
+
+.banner-content{
+    text-align: center;
+    margin-top: 220px;
+    color: #fbf9e2;
+    text-transform: uppercase;
+}

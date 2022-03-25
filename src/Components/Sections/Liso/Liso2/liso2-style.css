@@ -1,0 +1,33 @@
+.liso2-main{
+    background: rgb(244, 244, 247);
+    min-height: 500px;
+    font-family: system-ui;
+}
+
+.liso2-content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.liso2-title{
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120%;
+    max-width: 50%;
+}
+
+.liso2-show{
+    margin: 10% 0;
+}
+
+.liso2-show img{
+    max-width: 110%;
+}
+
+.text-lisos{
+    margin-top: 15px;
+}

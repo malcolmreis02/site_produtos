@@ -1,0 +1,13 @@
+.main-bannerLisos{
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-bannerLisos{
+    color: #fbf9e2;
+    text-align: center;
+    padding-top: 180px;
+}

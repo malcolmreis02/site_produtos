@@ -1,0 +1,28 @@
+.quimica1-main{
+    background: rgb(244, 244, 247);
+    min-height: 500px;
+    font-family: system-ui;
+}
+
+.quimica1-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.quimica1-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+.quimica1-show img{
+    max-width: 60%;
+    margin: 0 0 10% 0 
+}
+
+.text-quimica{
+    margin-top: 15px;
+}

@@ -1,0 +1,29 @@
+.cachos3-main{
+    background: rgb(244, 244, 247);
+    min-height: 500px;
+    font-family: system-ui;
+}
+
+.cachos3-content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.cachos3-title{
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120%;
+    max-width: 50%;
+}
+
+.cachos3-show{
+    margin: 10% 1% 10% 10%;
+}
+
+.cachos3-show img{
+    max-width: 130%;
+}

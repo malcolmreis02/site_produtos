@@ -1,0 +1,13 @@
+.main-bannerRostos{
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("https://images.pexels.com/photos/1644888/pexels-photo-1644888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-bannerRostos{
+    color: #fbf9e2;
+    text-align: center;
+    padding-top: 180px;
+}
