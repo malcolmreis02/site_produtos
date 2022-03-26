@@ -2,6 +2,10 @@
     width: 20rem;
 }
 
+.card-body a{
+    text-decoration:none
+}
+
 .main-menu{
     display: flex;
     flex-direction: row;
@@ -11,7 +15,7 @@
 }
 
 @media screen and (max-width: 800px){
-    .card h1{
+    .card h3{
         font-size: 10px;
     }
 

@@ -1,40 +1,41 @@
-.liso3-main{
+.kitcompleto-main{
     background: rgb(244, 244, 247);
     min-height: 500px;
     font-family: system-ui;
 }
 
-.liso3-content{
+.kitcompleto-content{
     display: flex;
-    flex-direction: row;
-    margin: 0 10%;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 10% 0;
+    align-items: center;
 }
 
-.liso3-title{
-    margin-top: 10%;
-    margin-right: 3%;
+.kitcompleto-title{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 120%;
     max-width: 50%;
+    text-align: center;
 }
 
-.liso3-show img{
-    max-width: 130%;
+.kitcompleto-show{
+    margin-top: 10px;
 }
 
-.liso3-show{
-    margin: 10% 20px;
+.kitcompleto-show img{
+    width: 700px;
+}
+
+.text-liso{
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 800px){
-    .liso3-content{
-        display: flex;
-        flex-direction: column;
-        margin: 0 10% 10% 10%;
+    .kitcompleto-content{
+        margin: 0 10%;
     }
 
-    .liso3-title{
+    .kitcompleto-title{
         margin-top: 10%;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 80%;
@@ -42,14 +43,14 @@
         max-width: max-content;
     }
 
-    .liso3-show{
+    .kitcompleto-show{
         margin: 0;
         text-align: center;
     }
 
-    .liso3-show img{
+    .kitcompleto-show img{
         width: 240px;
         height: 240px;
-        max-width: 80%;
+        margin-top: 10%;
     }
 }

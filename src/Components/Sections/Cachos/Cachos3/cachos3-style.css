@@ -1,29 +1,54 @@
-.cachos3-main{
+.cachos4-main{
     background: rgb(244, 244, 247);
     min-height: 500px;
     font-family: system-ui;
 }
 
-.cachos3-content{
+.cachos4-content{
     display: flex;
     flex-direction: row;
     margin: 0 10%;
     justify-content: space-between;
 }
 
-.cachos3-title{
+.cachos4-title{
     margin-top: 10%;
     margin-right: 3%;
-    margin-left: 5%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 120%;
     max-width: 50%;
 }
 
-.cachos3-show{
-    margin: 10% 1% 10% 10%;
+.cachos4-show img{
+    max-width: 130%;
 }
 
-.cachos3-show img{
-    max-width: 130%;
+.cachos4-show{
+    margin: 10% ;
+}
+
+@media screen and (max-width: 800px){
+    .cachos4-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .cachos4-title{
+        margin-top: 10%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 80%;
+        text-align: center;
+        max-width: max-content;
+    }
+
+    .cachos4-show{
+        margin: 0;
+        text-align: center;
+    }
+
+    .cachos4-show img{
+        max-width: 80%;
+        margin: 10%;
+    }
 }

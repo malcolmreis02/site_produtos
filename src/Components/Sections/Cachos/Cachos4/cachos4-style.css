@@ -1,17 +1,17 @@
-.liso3-main{
+.cachos3-main{
     background: rgb(244, 244, 247);
     min-height: 500px;
     font-family: system-ui;
 }
 
-.liso3-content{
+.cachos3-content{
     display: flex;
     flex-direction: row;
     margin: 0 10%;
     justify-content: space-between;
 }
 
-.liso3-title{
+.cachos3-title{
     margin-top: 10%;
     margin-right: 3%;
     font-family: 'Josefin Sans', sans-serif;
@@ -19,22 +19,22 @@
     max-width: 50%;
 }
 
-.liso3-show img{
+.cachos3-show img{
     max-width: 130%;
 }
 
-.liso3-show{
-    margin: 10% 20px;
+.cachos3-show{
+    margin: 10% ;
 }
 
 @media screen and (max-width: 800px){
-    .liso3-content{
+    .cachos3-content{
         display: flex;
         flex-direction: column;
-        margin: 0 10% 10% 10%;
+        margin: 0 10%;
     }
 
-    .liso3-title{
+    .cachos3-title{
         margin-top: 10%;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 80%;
@@ -42,14 +42,13 @@
         max-width: max-content;
     }
 
-    .liso3-show{
+    .cachos3-show{
         margin: 0;
         text-align: center;
     }
 
-    .liso3-show img{
-        width: 240px;
-        height: 240px;
+    .cachos3-show img{
         max-width: 80%;
+        margin: 10%;
     }
 }
