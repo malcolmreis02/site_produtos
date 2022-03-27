@@ -44,10 +44,10 @@ export const App = () => {
             <Quimica1 />
             <DailyUse />
             <UsoDiario />
-            <BannerRostos/>
-            <Rosto/>
             <BannerKit />
             <KitCompleto />
+            <BannerRostos/>
+            <Rosto/>
             <Whatsapp />
         </div>
     )
